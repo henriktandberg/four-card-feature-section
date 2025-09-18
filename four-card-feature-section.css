@@ -22,7 +22,7 @@ body {
     background-color: gray;
     display: grid;
     justify-content: center;
-    grid-template-rows: 160px 110px 20px 110px 160px;
+    grid-template-rows: 150px 150px 150px 150px;
     grid-template-columns: minmax(370px, 1fr) minmax(370px, 1fr) minmax(370px, 1fr);
     padding: 20px;
     margin-inline: 250px;
@@ -35,6 +35,7 @@ body {
     flex-wrap: wrap;
     font-family: poppins, sans-serif;
     border-radius: 6px;
+    margin-bottom: 30px;
 }
 
 .card-heading {
@@ -51,7 +52,7 @@ body {
 
 .card-supervisor {
     grid-row-start: 2;
-    grid-row-end: 5;
+    grid-row-end: 4;
     grid-column-start: 1;
     grid-column-end: 1;
 }
@@ -64,15 +65,15 @@ body {
 }
 
 .card-karma {
-    grid-row-start: 4;
-    grid-row-end: 6;
+    grid-row-start: 3;
+    grid-row-end: 5;
     grid-column-start: 2;
     grid-column-end: 2;
 }
 
 .card-calculator {
     grid-row-start: 2;
-    grid-row-end: 5;
+    grid-row-end: 4;
     grid-column-start: 3;
     grid-column-end: 3;
 }
