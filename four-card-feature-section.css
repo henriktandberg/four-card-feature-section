@@ -2,26 +2,42 @@ body {
     background-color: rgba(250, 250, 250, 255);
 }
 
-.attribution { 
-    font-size: 11px; 
-    text-align: center; 
-}
-
-.attribution a { 
-    color: hsl(228, 45%, 44%); 
-}
-
 #intro {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    text-align: center;
+    max-width: 42rem;
+    margin-inline: auto;
     font-family: poppins, sans-serif;
+    color: hsl(234, 12%, 34%);
+}
+
+#intro-head1 {
+    margin-top: 1.5rem;
+    margin-bottom: 0.1rem;
+    font-weight: 100;
+    font-size: 38px;
+}
+
+#intro-head2 {
+    margin-top: 0.1rem;
+    margin-bottom: 0.1rem;
+    font-weight: 600;
+    font-size: 38px;
+}
+
+#intro-body {
+    margin-top: 0.8rem;
+    margin-bottom: 2.7rem;
+    font-weight: 400;
+    padding-inline: 4rem;
 }
 
 #container {
     display: grid;
     justify-content: center;
-    grid-template-rows: 150px 150px 150px 150px;
+    grid-template-rows: 140px 140px 140px 140px;
     grid-template-columns: 370px 370px 370px;
     padding: 20px;
     margin-inline: auto;
@@ -44,10 +60,10 @@ body {
     border-top-right-radius: 6px;
 }
 
-.accent-box.supervisor { background-color: rgba(0, 200, 200)}
-.accent-box.teambuilder { background-color: rgba(230, 57, 80)}
-.accent-box.karma { background-color: rgba(253, 191, 0)}
-.accent-box.calculator { background-color: rgba(55, 127, 210)}
+.accent-box.supervisor { background-color: hsl(180, 62%, 55%)}
+.accent-box.teambuilder { background-color: hsl(0, 78%, 62%)}
+.accent-box.karma { background-color: hsl(34, 97%, 64%)}
+.accent-box.calculator { background-color: hsl(212, 86%, 64%)}
 
 .card-heading {
     margin-inline: 30px;
@@ -60,6 +76,7 @@ body {
 .card-body {
     margin-inline: 30px;
     margin-top: 0px;
+    padding-right: 2rem;
     font-size: 15px;
     font-weight: 400;
     color: hsl(212, 6%, 44%);
@@ -99,6 +116,26 @@ body {
 }
 
 @media (max-width: 1167px) {
+
+    #intro-head1 {
+        margin-top: 2rem;
+        margin-bottom: 0.2rem;
+        font-weight: 100;
+        font-size: 30px;
+    }
+
+    #intro-head2 {
+        margin-top: 0.2rem;
+        margin-bottom: 0.2rem;
+        font-weight: 600;
+        font-size: 29px;
+    }
+
+    #intro-body {
+        padding-inline: 1.5rem;
+        font-size: 17px;
+    }
+
     #container {
         grid-template-rows: 300px 300px 300px 300px;
         grid-template-columns: minmax(auto, 370px);
