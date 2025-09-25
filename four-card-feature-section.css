@@ -60,10 +60,21 @@ body {
     border-top-right-radius: 6px;
 }
 
-.accent-box.supervisor { background-color: hsl(180, 62%, 55%)}
-.accent-box.teambuilder { background-color: hsl(0, 78%, 62%)}
-.accent-box.karma { background-color: hsl(34, 97%, 64%)}
-.accent-box.calculator { background-color: hsl(212, 86%, 64%)}
+.accent-box.supervisor { 
+    background-color: hsl(180, 62%, 55%)
+
+}
+.accent-box.teambuilder { 
+    background-color: hsl(0, 78%, 62%)
+}
+
+.accent-box.karma { 
+    background-color: hsl(34, 97%, 64%)
+}
+
+.accent-box.calculator { 
+    background-color: hsl(212, 86%, 64%)
+}
 
 .card-heading {
     margin-inline: 30px;
